@@ -1,0 +1,30 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"compilerOptions": {
+		"alwaysStrict": true,
+		"esModuleInterop": true,
+		"experimentalDecorators": false,
+		"forceConsistentCasingInFileNames": true,
+		"newLine": "LF",
+		"module": "nodenext",
+		"moduleResolution": "node16",
+		"pretty": true,
+		"resolveJsonModule": true,
+		"types": [
+			"node"
+		],
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"sourceMap": true,
+		"strictNullChecks": true,
+		"skipLibCheck": true,
+		"target": "ESNext",
+		"declaration": true,
+		"rootDir": "."
+	},
+	"include": [
+		"./src/**/*.ts"
+	],
+	"exclude": [
+	]
+}
